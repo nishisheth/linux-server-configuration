@@ -1,6 +1,6 @@
 # Linux Server Configuration 
 
-In this project, the Catalog Web Application from project 3 will be hosted by a Ubuntu Linux server on an Amazon Lightsail instance. This document demonstrate steps to configure linux server to host any website. You can visit http://ec2-13-237-224-118.ap-southeast-2.compute.amazonaws.com/ for the website deployed.
+In this project, the Catalog Web Application will be hosted on a Ubuntu Linux server using an Amazon Lightsail instance. This document demonstrate steps to configure linux server to host any website. You can visit http://ec2-13-237-224-118.ap-southeast-2.compute.amazonaws.com/ for the website deployed.
 
 Public IP address: 13.237.224.118
 SSH port: 2200
