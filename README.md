@@ -276,7 +276,7 @@ engine = create_engine('postgresql://catalog:catalog@localhost/catalog')
 ```
 ##### Step 13: Disable default apache config 
 
-1. `$ sudo a2dissite 000-defualt.conf`
+1. `$ sudo a2dissite 000-default.conf`
 2. Restart **Apache**: `$ sudo service apache2 reload`
 
 ##### Step 14: Setup database schema 
