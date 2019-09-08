@@ -274,7 +274,7 @@ engine = create_engine('postgresql://catalog:catalog@localhost/catalog')
 ```
 engine = create_engine('postgresql://catalog:catalog@localhost/catalog')
 ```
-##### Step 13: Diable default apache config 
+##### Step 13: Disable default apache config 
 
 1. `$ sudo a2dissite 000-defualt.conf`
 2. Restart **Apache**: `$ sudo service apache2 reload`
