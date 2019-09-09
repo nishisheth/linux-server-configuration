@@ -32,9 +32,10 @@ Please wait until instance comes in running status.
 
 ## Apply security settings 
 
-####  Change the SSH port from 22 to 2200
+####  Change the SSH port from 22 to 2200 and restrict root login
 1. Run `$ sudo nano /etc/ssh/sshd_config` to open up the configuration file
 2. Change the port number from **22** to **2200** in this file
+3. Change `PermitRootLogin` setting to `no`. This will not allow root user to change any configuration of the server.
 3. Save and exit the file
 4. Restart SSH: `$ sudo service ssh restart`
 
